@@ -31,14 +31,22 @@ Output:
 ```
 [
   {
-    hpo:'HP:0000878', 
-    phenotype:'11 pairs of ribs', 
+    phenotype: [
+      {
+          hpo: 'HP:0000878',
+          name: '11 pairs of ribs'
+      }
+    ],
     gene:'ATR', 
     gene_id:'545'
   }, 
   {
-    hpo:'HP:0001459', 
-    phenotype:'1-3 toe syndactyly', 
+    phenotype: [
+      {
+        hpo: 'HP:0001459',
+        name: '1-3 toe syndactyly'
+      }
+    ], 
     gene:'GLI3', 
     gene_id:2737
    }
