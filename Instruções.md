@@ -50,6 +50,7 @@ Caso estes já não estejam instalados, instalar através do comando pip, exempl
    > * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
     
  4) Abrir o browser e fornecer a lista de genes necessária, exemplo:
+ 
     http://localhost:5000/phenotypetogene/genes/['CENPJ']
     http://localhost:5000/phenotypetogene/genes/['CENPJ','SOST']
 
